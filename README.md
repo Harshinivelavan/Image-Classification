@@ -6,7 +6,9 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Include the Problem Statement and Dataset.
+Develop a binary classification model using a pretrained VGG19 to distinguish between defected and non-defected capacitors by modifying the last layer to a single neuron.
+Train the model on a dataset containing images of various defected and non-defected capacitors to improve defect detection accuracy.
+Optimize and evaluate the model to ensure reliable classification for capacitor quality assessment in manufacturing.
 
 ## Neural Network Model
 
