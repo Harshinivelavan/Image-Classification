@@ -6,9 +6,7 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Develop a binary classification model using a pretrained VGG19 to distinguish between defected and non-defected capacitors by modifying the last layer to a single neuron.
-Train the model on a dataset containing images of various defected and non-defected capacitors to improve defect detection accuracy.
-Optimize and evaluate the model to ensure reliable classification for capacitor quality assessment in manufacturing.
+The goal of this project is to develop a Convolutional Neural Network (CNN) for image classification using the Fashion MNIST dataset. The Fashion MNIST dataset contains images of clothing items such as T-shirts, trousers, dresses, and shoes, and the model aims to classify them into their respective categories correctly. The challenge is to achieve high accuracy while maintaining efficiency.
 
 ## Neural Network Model
 
@@ -20,27 +18,27 @@ Optimize and evaluate the model to ensure reliable classification for capacitor 
 STEP 1:
 
 
-Define the objective of classifying handwritten digits (0-9) using a Convolutional Neural Network (CNN).
+Load the dataset from the tensorflow library.
 
 STEP 2:
 
 
-Convert images to tensors, normalize pixel values, and create DataLoaders for batch processing.
+Preprocess the dataset to get maximum accuracy in the model.
 
 STEP 3:
 
 
-Design a CNN with convolutional layers, activation functions, pooling layers, and fully connected layers.
+Create the model using tensor flow and train the model.
 
 STEP 4:
 
 
-Train the model using a suitable loss function (CrossEntropyLoss) and optimizer (Adam) for multiple epochs.
+Include the training loss, validation loss vs iteration plot.
 
 STEP 5:
 
 
-Test the model on unseen data, compute accuracy, and analyze results using a confusion matrix and classification report.
+Test the model for your handwritten scanned images.
 
 
 
