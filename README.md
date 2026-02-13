@@ -42,10 +42,6 @@ STEP 5:
 
 Test the model on unseen data, compute accuracy, and analyze results using a confusion matrix and classification report.
 
-STEP 5:
-
-
-Save the trained model, visualize predictions, and integrate it into an application if needed.
 
 
 ## PROGRAM
